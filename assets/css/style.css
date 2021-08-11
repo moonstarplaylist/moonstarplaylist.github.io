@@ -2,7 +2,7 @@ body {
   background-image: url('./../images/moon.gif');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'WindSong', cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .player, .small-toggle-btn, .track-number {

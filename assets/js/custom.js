@@ -15,7 +15,7 @@ var audioPlayer = function () {
     playListRows: document.getElementsByClassName("play-list-row"),
     trackInfoBox: document.querySelector(".track-info-box")
   };
-  var _playAHead = false;
+  var _playAHead = true;
   var _progressCounter = 0;
   var _progressBarIndicator = _elements.progressBar.children[0].children[0].children[1];
   var _trackLoaded = false;
@@ -78,7 +78,6 @@ var audioPlayer = function () {
    *
    **/
   var initPlayer = function () {
-
     if (_currentTrack === 1 || _currentTrack === null) {
       _elements.playerButtons.previousTrackBtn.disabled = true;
     }
@@ -452,6 +451,6 @@ var audioPlayer = function () {
 
 (function () {
   var player = new audioPlayer();
-
+  
   player.initPlayer();
 })();

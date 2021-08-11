@@ -1,0 +1,34 @@
+body {
+  background-image: url('https://wallpaperaccess.com/full/11562.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'WindSong', cursive;
+}
+
+.player, .small-toggle-btn, .track-number {
+  display: none;
+}
+.playlist {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+.play-list-row {
+  display: flex;
+  justify-content: flex-end;
+}
+.playlist-track {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+}
+.page-title  {
+  padding: 0 20px;
+}
+.page-title h1 {
+  color: #fff;
+  font-size: 50px;
+  text-align: right;
+}

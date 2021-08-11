@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MOON</title>
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <audio id="audio" preload="none" tabindex="0">
+            <source src="./assets/Audio/Scientist - Felix Irwan.mp3" data-track-number="1" />
+            <source src="./assets/Audio/Dear God - Felix Irwan.mp3" data-track-number="2" />
+            <source src="./assets/Audio/You And Me - Felix Irwan.mp3" data-track-number="3" />
+            <source src="./assets/Audio/Flightless Bird - American Mouth.mp3" data-track-number="4" />
+            Your browser does not support HTML5 audio.
+         </audio>
+         <div class="page-title">
+          <h1>~357</h1>
+         </div>
+         <div class="player">
+            <div class="large-toggle-btn">
+               <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+            </div>
+            <!-- /.play-box -->
+            <div class="info-box">
+               <div class="track-info-box">
+                  <div class="track-title-text"></div>
+                  <div class="audio-time">
+                     <span class="current-time">00:00</span> /
+                     <span class="duration">00:00</span>
+                  </div>
+               </div>
+               <!-- /.info-box -->
+               <div class="progress-box">
+                  <div class="progress-cell">
+                     <div class="progress">
+                        <div class="progress-buffer"></div>
+                        <div class="progress-indicator"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /.progress-box -->
+            <div class="controls-box">
+               <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+               <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+            </div>
+            <!-- /.controls-box -->
+         </div>
+         <!-- /.player -->
+         <div class="playlist">
+          <div class="play-list">
+            <div class="play-list-row" data-track-row="1">
+               <div class="small-toggle-btn">
+                  <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+               </div>
+               <div class="track-number">
+                  1.
+               </div>
+               <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="1">Scientist - Felix Irwan</a>
+               </div>
+            </div>
+            <div class="play-list-row" data-track-row="2">
+              <div class="small-toggle-btn">
+                 <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+              </div>
+              <div class="track-number">
+                 1.
+              </div>
+              <div class="track-title">
+                 <a class="playlist-track" href="#" data-play-track="2">Dear God - Felix Irwan</a>
+              </div>
+            </div>
+            <div class="play-list-row" data-track-row="3">
+              <div class="small-toggle-btn">
+                 <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+              </div>
+              <div class="track-number">
+                 1.
+              </div>
+              <div class="track-title">
+                 <a class="playlist-track" href="#" data-play-track="3">You And Me - Felix Irwan</a>
+              </div>
+            </div>
+            <div class="play-list-row" data-track-row="4">
+              <div class="small-toggle-btn">
+                 <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+              </div>
+              <div class="track-number">
+                 1.
+              </div>
+              <div class="track-title">
+                 <a class="playlist-track" href="#" data-play-track="4">Flightless Bird - American Mouth</a>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+      <script src="./assets/js/custom.js"></script>
+   </body>
+</html>
